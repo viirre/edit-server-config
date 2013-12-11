@@ -9,7 +9,7 @@
 	
 	<?php
 
-	$dir = "/etc/nginx/sites-enabled";
+	$dir = "/etc/nginx/sites-available";
 	//$dir = '/Users/viirre/Websites/tests/capify-test';
 
 	$dh  = opendir($dir);
