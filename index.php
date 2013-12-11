@@ -26,7 +26,7 @@
 				<option value="<?php echo $file; ?>"><?php echo $file; ?></option>
 			<?php endforeach; ?>
 		</select>
-		<br>
+	
 	<button type="submit">Ändra fil</button>
 	<br><br>
 	</form>
@@ -64,7 +64,7 @@
 
 		<form method="post">
 			<input type="hidden" name="file" value="<?php echo $path; ?>">
-			<textarea id="html" name="content" style="width:100%;" rows="80"><?php echo $content; ?></textarea>
+			<textarea id="html" name="content" style="width:100%;" rows="60"><?php echo $content; ?></textarea>
 			<br>
 			<button type="submit" name="save">Spara fil</button>
 		</form>
