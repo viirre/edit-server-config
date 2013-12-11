@@ -20,6 +20,8 @@
 	<form method="get">
 		<label>Välj fil att redigera</label>
 		<select name="file">
+			<option>Välj</option>
+			<option disabled>-------</option>
 			<?php foreach($files as $file): ?>
 				<option value="<?php echo $file; ?>"><?php echo $file; ?></option>
 			<?php endforeach; ?>
